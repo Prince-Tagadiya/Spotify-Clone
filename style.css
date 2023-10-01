@@ -11,7 +11,7 @@ body{
 }
 
 .sidebar{
-    background-color: #121212;
+    background-color: black;
     width: 340px;
     border-radius: 1rem;
 }
@@ -31,3 +31,42 @@ body{
     height: 73px;
     border-radius: 1rem;
 }
+
+.nav{
+    height: 112px;
+    background-color: #121212;
+    margin: 8px;
+    border-radius: 1rem;
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+    transition: all 0.1s ease-in;
+    
+}
+
+.nav-option:hover{
+    opacity: 1;
+    margin-left: 1rem;
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+}
+
+.nav-option a{
+    font-size: 1rem;
+}
+
+
