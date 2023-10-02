@@ -75,6 +75,7 @@ a{
     border-radius: 1rem;
     margin: 0.5rem;
     padding: 0.5rem 0.75rem;
+    overflow: auto;
 }
 
 .options{
@@ -89,4 +90,37 @@ a{
 
 .icons{
     font-size: 1.25rem;
+}
+
+.box{
+    background-color: #242424;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    margin: 1rem 0;
+}
+
+.box-p1{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+}
+
+.box-p2{
+    font-size: 0.75rem;
+    margin-bottom: 1.25rem;
+    opacity: 0.8;
+    line-height: 1.2rem;
+}
+
+.badge{
+    padding: 0.75rem 1rem;
+    border-radius: 100px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.badge:hover{
+    transform: scale(1.04);
 }
