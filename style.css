@@ -124,3 +124,50 @@ a{
 .badge:hover{
     transform: scale(1.04);
 }
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons img{
+    cursor: pointer;
+}
+
+.sticky-nav-icons{
+    margin-left: 1.5rem;
+}
+
+.sticky-nav-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-nav-option button{
+    margin-right: 1rem;
+}
+
+.sticky-nav-option .fa-circle-down{
+    margin-right: 0.5rem;
+}
+
+.sticky-nav-option .fa-user{
+    margin-right: 1.5rem;
+}
+
+.dark-badge{
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width: 1000px){
+    .hide{
+        display: none;
+    }
+}
